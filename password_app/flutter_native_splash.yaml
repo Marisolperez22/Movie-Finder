@@ -1,0 +1,20 @@
+flutter_native_splash:
+  color: "#0xFFAEA6FF"
+  image: assets/images/splash.png
+  android:icon: "assets/images/icon.png"
+  android:background: "#ffffff"
+  ios:background: "#0xFFAEA6FF"
+  web: true
+  web_background_color: "#0xFFAEA6FF"
+  web_image: assets/images/splash.png
+  web_image_color: "#ffffff"
+  web_image_fit: cover
+  web_image_width: 100%
+  web_image_height: auto
+  web_image_position: center
+
+  android_12:
+    image: assets/images/splash.png
+    background: "#0xFFAEA6FF"
+
+  web: true
