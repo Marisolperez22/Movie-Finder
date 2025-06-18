@@ -1,12 +1,12 @@
-import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:reto_pragma_2/services/api_services.dart';
+import 'package:fase_2_pragma/services/api_services.dart';
 
 
 
 void main() async {
-  await dotenv.load(fileName: ".env");
 
-  final apiService = ApiService(dotenv.env['API_BASE_URL']!);
+  final url = 'https://fakestoreapi.com';
+
+  final apiService = ApiService(url);
 
   // Products
   final productsResult = await apiService.getProducts();
